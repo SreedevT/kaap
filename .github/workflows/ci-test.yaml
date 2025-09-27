@@ -7,8 +7,7 @@ on:
 jobs:
   build-and-unit-test:
     name: Build and test
-    runs-on:
-      labels: kaap
+    runs-on: self-hosted
     timeout-minutes: 60
     steps:
       - name: checkout
